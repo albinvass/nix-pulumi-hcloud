@@ -33,7 +33,7 @@
         ];
 
         fetchSubmodules = false;
-        meta = with lib; {
+        meta = with pkgs; with lib; {
           description = "Hetzner Cloud Pulumi Provider";
           homepage = "https://github.com/pulumi/pulumi-hcloud";
           license = licenses.asl20;
